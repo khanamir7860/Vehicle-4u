@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle-Shopping-App</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+
+<body>
+    <div id="home">
+
+        <nav>
+            <div class="logo"><span>V</span>EHICLE <span>4</span>U</div>
+            <!-- <i class="fa-solid fa-bars"></i> -->
+
+            <button class="menu-btn" id="menu-btn" onclick="showMenu()" onclick="hideMenu()">Menu</i></button>
+           
+        
+            <ul id="menu">
+                <!-- <i style="width:20px;" class="fa-sharp fa-solid fa-xmark-large"></i> -->
+
+                <!-- <button style="color:orangered; " class="menu-remove" id="menu-remove-btn"> X</button> -->
+             
+                <li  ><a href="#" style="color:orangered" onclick="hideMenu()">Home</a></li>
+                <li><a href="#bicycle" class="vehicle" onclick="hideMenu()">Bicycle</a></li>
+                <li><a href="#bike"  class="vehicle" onclick="hideMenu()">Bike</a></li>
+                <li><a href="#car"  class="vehicle" onclick="hideMenu()">Car</a></li>
+              
+                <!-- <li class="log"><a href="#">Login</a></li> -->
+                <button class="log" id="logBtn" onclick="showForm();hideMenu()">Login</button>
+            </ul>
+        </nav>
+
+        <div class="content-box">
+        
+            <h1><span>Hey there!</span> </h1>
+            <p>Are you looking for an awesome vehicle. </p>
+            <h4 style="line-height:2rem;">We provide one of the best vehicle compare to the over all market .Also we provide home services without any service charge .<br> You can make an order  farelessly if any default is considerd you will be refunded all your money  </h4>
+           <button id="registrationBtn" onclick="showRegForm()">Register Here</button>
+           <p><input type="text" placeholder="Search your choice over here"></p>
+
+
+           <!-- <i class="fa-sharp fa-solid fa-bars"></i> -->
+
+        
+
+        </div>
+
+       
+
+        <div class="form" id="logForm">
+           
+            
+            <form action="">
+                <p><input type="email" placeholder="Enter your Email or Phone Number"></p>
+                <p><input type="password"placeholder="Enter your Password"></p>
+                <button class="btn" id="logSub" onclick="hideForm()">Login</button>
+
+            </form>
+        </div>
+
+
+
+        <div class="Reg-form" id="regForm">
+           
+            
+            <form action="">
+                <p><input type="email" placeholder="Enter your Email or Phone Number"></p>
+                <p><input type="password"placeholder="Create New Password"></p>
+                <p><input type="password"placeholder="Confirm Password"></p>
+                <button class="regBtn" id="regBtn" onclick="hideRegForm()" >Register Now</button>
+
+            </form>
+        </div>
+
+
+
+    </div>
+
+
+         <!----------------------------------- Bicycle ------------------------------>
+    <div id="bicycle">
+        <h1 style="text-align: center;margin: 1rem 0; background-color: orangered; align-items: center; color:white; font-style: italic; border-radius:7px;">Our collections of Bicycles</h1>
+
+        <p style="text-align:center; margin-bottom: 1rem;"><input type="text" placeholder="Search by Brand Name Color ..." style="width:40%; padding:0.5rem; outline:none; border:0.5px solid orangered; border-radius:3px;"><span style="border:1px solid red;  padding:0.4rem; border-radius:3px; background-color:orangered; cursor:pointer;"><i class="fa fa-search" style="color:white; font-size: 1.3rem;"></i></span>   </p>
+        
+       
+        <div class="container">
+            <div class="items">
+                <img src="images/bicycle-1.png" alt="">
+                <hr>
+                <div class="description" style="padding:4px; margin-bottom:0;">
+                    <h3 style="font-weight:700">ROCKRIDER</h3>
+                <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                <!-- <span style="float:right;">rating</span> -->
+                <div class="star" style="float:right;">
+                    <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                </div>
+                <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+
+                <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                </div>
+            </div>
+            <div class="items"> 
+                <img src="images/bicycle-2.png" alt="">
+                <hr>
+                <div class="description" style="padding:2px 4px; margin-bottom:0; overflow: hidden;">
+                    <h3 style="font-weight:700">BTWIN</h3>
+                <p style="font-weight:100;font-size:13px; opacity:0.8; padding:3px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                <!-- <span style="float:right;">rating</span> -->
+                <div class="star" style="float:right;">
+                    <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                </div>
+                <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+
+                <button style="margin:8px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                </div>
+
+            </div>
+            <div class="items"> 
+                <img src="images/bicycle-3.png" alt="">
+                <hr>
+                <div class="description" style="padding:2px 4px; margin-bottom:0;">
+                    <h3 style="font-weight:700">ROCKRIDER</h3>
+                <p style="font-weight:100;font-size:13px; opacity:0.8; padding:3px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                <!-- <span style="float:right;">rating</span> -->
+                <div class="star" style="float:right;">
+                    <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                </div>
+                <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+
+                <button style="margin:8px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                </div>
+           
+            </div>
+            <div class="items"> 
+                <img src="images/bicycle-4.png" alt="">
+                <hr>
+                <div class="description" style="padding:4px; margin-bottom:0;">
+                    <h3 style="font-weight:700">TRIBAN</h3>
+                <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                <!-- <span style="float:right;">rating</span> -->
+                <div class="star" style="float:right;">
+                    <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                </div>
+                <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+
+                <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                </div>
+            </div>
+            <div class="items" style="height:20.5rem">
+                 <img src="images/bicycle-5.png" alt="">
+                 <hr>
+                 <div class="description" style="padding:2px 4px; margin-bottom:0;">
+                    <h3 style="font-weight:700">ROCKRIDER</h3>
+                <p style="font-weight:100;font-size:13px; opacity:0.8; padding:2px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                <!-- <span style="float:right;">rating</span> -->
+                <div class="star" style="float:right;">
+                    <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                </div>
+                <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+
+                <button style="margin:7px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="images/bicycle-6.jpg" alt="">
+                <hr>
+                <div class="description" style="padding:4px; margin-bottom:0;">
+                    <h3 style="font-weight:700">ROCKRIDER</h3>
+                <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                <!-- <span style="float:right;">rating</span> -->
+                <div class="star" style="float:right;">
+                    <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                </div>
+                <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+
+                <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                </div>
+            </div>
+            <div class="items" style="height:22rem;">
+                <img src="images/bicycle-7.png" alt="">
+                <hr>
+                <div class="description" style="padding:4px; margin-bottom:0;">
+                    <h3 style="font-weight:700">ROCKRIDER</h3>
+                <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                <!-- <span style="float:right;">rating</span> -->
+                <div class="star" style="float:right;">
+                    <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                </div>
+                <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+
+                <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                </div>
+            </div>
+            <!-- <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div> -->
+        </div>
+
+    </div>
+
+    <hr>
+
+    <!------------------------------ Bike-section -------------------------------->
+
+    <div id="bike">
+
+        <div id="bicycle">
+            <h1 style="text-align: center;margin: 1rem 0; background-color: orangered; align-items: center; color:white; font-style: italic; border-radius:7px;">Our collections of Bikes</h1>
+
+            <p style="text-align:center; margin-bottom: 1rem;"><input type="text" placeholder="Search by Brand Name Color ..." style="width:40%; padding:0.5rem; outline:none; border:0.5px solid orangered; border-radius:3px;"><span style="border:1px solid red;  padding:0.4rem; border-radius:3px; background-color:orangered; cursor:pointer;"><i class="fa fa-search" style="color:white; font-size: 1.3rem;"></i></span>   </p>
+            
+
+            <div class="container">
+                <div class="items">
+                    <img src="images/bike-1.jpg" alt="">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">Kawasaki Ninja H2</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 79.90 Lakh</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="images/bike-2.jpg" alt="">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">ROCKRIDER</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="images/bike-3.jpg" alt="">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">ROCKRIDER</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="images/bike-4.jpg" alt="">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">ROCKRIDER</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="images/bike-5.jpg" alt="">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">KTM 390 Duke</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="images/bike-6.jpg" alt="" style="height:15rem;">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">Yamaha R15S</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="images/bike-7.jpg" alt="">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">ROCKRIDER</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="images/bike-10.png" alt="">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">Royal Enfield Bullet 350</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+   
+
+    <hr>
+     
+    <!--------------------------------- Car-section --------------------------->
+
+    <div id="car">
+
+        <div id="bicycle">
+            <h1 style="text-align: center;margin: 1rem 0; background-color: orangered; align-items: center; color:white; font-style: italic; border-radius:7px;">Our collections of Cars</h1>
+
+            <p style="text-align:center; margin-bottom: 1rem;"><input type="text" placeholder="Search by Brand Name Color ..." style="width:40%; padding:0.5rem; outline:none; border:0.5px solid orangered; border-radius:3px;"><span style="border:1px solid red;  padding:0.4rem; border-radius:3px; background-color:orangered; cursor:pointer;"><i class="fa fa-search" style="color:white; font-size: 1.3rem;"></i></span>   </p>
+            
+
+            <div class="container">
+                <div class="items">
+                    <img src="images/car-1.png" alt="">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">ROCKRIDER</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="images/car-2.png" alt="">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">ROCKRIDER</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="images/car-3.png" alt="">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">ROCKRIDER</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="images/car-4.png" alt="">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">ROCKRIDER</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="images/car-5.png" alt="">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">ROCKRIDER</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="images/car-6.png" alt="">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">ROCKRIDER</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="images/car-7.png" alt="">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">ROCKRIDER</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="images/car-8.png" alt="">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">ROCKRIDER</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="images/car-9.png" alt="">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">ROCKRIDER</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="images/car-10.png" alt="">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">ROCKRIDER</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="images/car-11.png" alt="">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">ROCKRIDER</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="images/car-12.png" alt="">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">ROCKRIDER</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <img src="images/car-13.png" alt="">
+                    <hr>
+                    <div class="description" style="padding:4px; margin-bottom:0;">
+                        <h3 style="font-weight:700">ROCKRIDER</h3>
+                    <p style="font-weight:100;font-size:13px; opacity:0.8; padding:6px 0;">Kids Cycle Robot 2.0 4 - 6 years (16inch) - Orange</p>
+                    <span style="background-color:orangered; font-weight:bold; font-weight:700; opacity:0.8; border-radius:3px;padding:2px; color:white;">₹ 4,999</span>
+                    <!-- <span style="float:right;">rating</span> -->
+                    <div class="star" style="float:right;">
+                        <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    </div>
+                    <!-- <h4 style="text-align: center; margin-bottom:4px;"><a href="" style="text-decoration:none; ">See available discount</a></h4> -->
+    
+                    <button style="margin:14px 0; background-color: #EFF5F5; border:none; cursor:pointer; padding:2px;">See Available Discount</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+  
+
+  <!-- -------------------javascript file--------------------------->
+  <script>
+    let logBtn = document.getElementById("logBtn");
+    let logForm = document.getElementById("logForm");
+    let logSub = document.getElementById("logSub");
+    function showForm() {
+          logForm.style.right = "0";
+}
+
+    function hideForm() {
+          logForm.style.right = "-28rem";
+          alert(" Congratualation! you have logedIn")
+}
+
+
+let registrationBtn = document.getElementById("registrationBtn");
+let regBtn = document.getElementById("regBtn");
+let regForm = document.getElementById("regForm");
+
+function showRegForm(){
+    regForm.style.right = "0";
+}
+
+function hideRegForm(){
+    regForm.style.right = "-28rem";
+    alert("Congratualition! Your information has been saved")
+}
+
+
+let menuBtn = document.getElementById("menu-btn");
+// let menuRemove = document.getElementById("menu-remove-btn");
+let menu = document.getElementById("menu");
+
+
+function showMenu(){
+
+   if(menu.style.transform == "scale(0)"){
+
+    menu.style.transform = "scale(1)";
+   }
+   else{
+    menu.style.transform = "scale(0)";
+
+   
+   }
+  
+    // else if(menu.style.transform = "scale(1)"){
+    //     menu.style.transform = "scale(0)";
+
+    // }
+    
+}
+
+function hideMenu(){
+    if(menu.style.transform == "scale(1)"){
+
+      menu.style.transform = "scale(0)";
+}
+}
+
+  </script>
+</body>
+</html>

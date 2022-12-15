@@ -1,0 +1,414 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+   
+
+}
+html{
+    scroll-behavior: smooth;
+}
+/* #home{
+    height:2000px;
+} */
+
+
+nav{
+    background-color: #EFF5F5;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    padding:0 5%;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    z-index: 100000;
+
+}
+#home nav{
+    display:flex;
+    justify-content: space-between;
+
+}
+ #home nav .logo{
+
+padding:3px;
+font-weight:400;
+}
+
+#home nav .logo span{
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 700;
+    color:orangered;
+}
+
+nav .menu-btn{
+    display:none;
+}
+
+/* nav ul .menu-remove{
+    display:none;
+} */
+
+
+nav ul li{
+    display:inline-block;
+
+}
+nav ul li{
+ list-style: none;
+ padding:0.8rem 3.3rem;
+}
+nav ul .vehicle{
+    color:black;
+}
+
+nav ul .vehicle:hover{
+    color:orangered;
+}
+
+
+
+nav ul li a{
+text-decoration: none;
+text-align: center;
+font-size: 1.2rem;
+/* color:black; */
+font-weight:400;
+cursor:pointer;
+
+}
+
+
+
+
+ul .log{
+    
+    background-color:orangered;
+   
+    border-radius:30px;
+    color:white;
+    padding:0.8rem 3rem;
+    cursor:pointer;
+    font-size:1.2rem;
+    border:none;
+    
+}
+ul .log:hover{
+    opacity:0.8;
+}
+
+/* ul .log a{
+    color:white;
+} */
+
+.content-box{
+    margin-top:6rem;
+    text-align: center;
+}
+
+/* .content-box .fa-bars{
+    color:black;
+    width:20px;
+    height:20px;
+} */
+.content-box span{
+    font-size:5rem;
+    font-style:italic;
+    color:orangered;
+}
+.content-box p{
+    padding:1.5rem 0;
+    font-size:2rem;
+    font-weight:300;
+    /* opacity:0.7; */
+    font-style: italic;
+}
+.content-box h4{
+    font-weight:200;
+    padding:2rem 0;
+}
+.content-box button{
+    width:10rem;
+    padding:0.6rem ;
+    border-radius:4px;
+    border:none;
+    background-color:orangered;
+    color:white;
+    font-weight:600;
+    transition:0.5s;
+}
+.content-box button:hover{
+   transform:scaleY(1.1);
+}
+.content-box input{
+    width:40%;
+    padding:0.8rem 1rem;
+    border-radius:5px;
+    background-color: #EFF5F5;
+    border:1px solid orangered;
+    outline:none;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+/* #home{
+    position:relative;
+} */
+#home .form{
+    /* text-align: center; */
+    border:0.5px solid orangered;
+    border-radius:7px;
+    width:28rem;
+    /* height:15rem; */
+    height:auto;
+   /* margin:0 auto; */
+   position:fixed;
+   top:3.5rem;
+   right:-28rem;
+   transition:0.5s;
+   background-color: #EFF5F5;
+   box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+   padding:1.8rem 2rem;
+   z-index: 2000;
+   /* transform: scale(0); */
+   /* display:none; */
+}
+#home .form .fa-xmark{
+    color:red;
+    width:20px;
+  
+}
+
+#home .form form{
+   
+    text-align: center;
+}
+
+#home .form form input{
+    width:100%;
+    margin-top:1.2rem;
+    /* height:1.6rem; */
+    padding:0.6rem 0.6rem;
+    border-radius:6px;
+    /* outline-style: solid; */
+    outline-color: red; 
+    
+    border:none;
+    
+}
+
+#home .form form .btn{
+    margin-top:1.2rem;
+    width:100%;
+    padding:0.6rem 0;
+    /* margin-bottom:0.8rem; */
+    border-radius:6px;
+    background-color: orangered;
+    outline:none;
+    border:none;
+    color:white;
+    font-size: 1.2rem;
+}
+
+#home .form form .btn:hover{
+    opacity:0.8;
+}
+
+#home .Reg-form{
+     /* text-align: center; */
+     border:0.5px solid orangered;
+     border-radius:7px;
+     width:28rem;
+     /* height:15rem; */
+     height:auto;
+    /* margin:0 auto; */
+    position:fixed;
+    top:20rem;
+    right:-28rem;
+    transition:0.5s;
+    background-color: #EFF5F5;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    padding:1.8rem 2rem;
+    z-index: 2000;
+    /* transform: scale(0); */
+    /* display:none; */
+}
+#home .Reg-form form{
+   
+    text-align: center;
+}
+
+#home .Reg-form form input{
+    width:100%;
+    margin-top:1.2rem;
+    /* height:1.6rem; */
+    padding:0.6rem 0.6rem;
+    border-radius:6px;
+    /* outline-style: solid; */
+    outline-color: red; 
+    
+    border:none;
+    
+}
+
+#home .Reg-form form .regBtn{
+    margin-top:1.2rem;
+    width:100%;
+    padding:0.6rem 0;
+    /* margin-bottom:0.8rem; */
+    border-radius:6px;
+    background-color: orangered;
+    outline:none;
+    border:none;
+    color:white;
+    font-size: 1.2rem;
+}
+
+/* ----------------------------------Bicycle section------------------------------- */
+#bicycle{
+    padding:5rem 5%;
+}
+
+#bicycle .container{
+    display:grid;
+    grid-template-columns:repeat(3,auto);
+    grid-gap:8rem;
+}
+#bicycle .container .items{
+   
+    width:18rem;
+    /* height:20rem; */
+    height:auto;
+    /* background-color: #EFF5F5; */
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    border-radius:5px;
+    transition:0.5s;
+}
+#bicycle .container .items:hover{
+    transform:scale(0.9)
+}
+
+#bicycle .container .items img{
+    width:100%;
+    overflow: hidden;
+    padding:2rem;
+    background-color: #EFF5F5;
+}
+
+.items .checked{
+    color:orangered;
+}
+
+     /*----------------------------- media query--------------------------- */
+
+
+@media only screen and (max-width: 600px) {
+    
+    body,html {
+      /* background-color: lightblue; */
+      box-sizing:border-box;
+      width:100%;
+      overflow-x: hidden;
+    }
+    
+    #home nav .logo {
+        padding: 7px;
+    }
+    #home .form{
+        width:22rem;
+        top:8rem;
+    }
+
+    #home .Reg-form{
+        width:22rem;
+    }
+
+
+    nav ul {
+        height:75vh;
+        width:300px;
+        position:fixed;
+        top:4rem;
+        /* right:-300px; */
+        right:2.2rem;
+        background-color: #EFF5F5;
+        transition:0.5s;
+        /* display: none; */
+        transform: scale(0);
+    }
+    nav .menu-btn{
+        display:block;
+        position:fixed;
+        top:10px;
+        right:10px;
+        padding:0.4rem 0.1rem;
+        color:orangered;
+
+        border:1px solid orangered;
+        border-radius:2px;
+
+        
+    }
+
+    /* nav ul .menu-remove{
+        position:fixed;
+        top:8px;
+        right:8px;
+        display:inline-block;
+        display: none;
+        z-index:50000000;
+        font-size:1.5rem;
+        padding:0 5px;
+        border:1px solid white;
+        color:rgb(184, 77, 77);
+        background-color:orangered;
+    } */
+
+    nav ul li{
+        display:block;
+        text-align:center;
+        margin:2.5rem 0;
+    }
+
+    nav ul span{
+        display:none;
+    }
+
+    nav ul li a{
+        font-size:1.5rem;
+        font-weight:600;
+        color:white;
+    }
+
+
+
+     ul .log{
+        margin:auto;
+        display:block;
+        border-radius:5px;
+
+     }
+
+     #bicycle  input{
+        width:70%;
+    }
+
+     #bicycle .container{
+        display:grid;
+        grid-template-columns:repeat(2,auto);
+        grid-gap:1rem;
+    }
+
+    #bicycle .container .items{
+        width:10rem;
+    }
+
+    
+  }
+
+  /* #home .Reg-form{
+   display:none; 
+     } 
+   
+   */
+
